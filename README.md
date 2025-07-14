@@ -4,7 +4,7 @@ This simple VSCode extension calculates and displays the word count of a Markdow
 
 ## Requirements
 
-This is an adaptation of the [word count extension example](https://vscode.readthedocs.io/en/stable/extensions/example-word-count/).
+This is an adaptation of the [word count extension example](https://vscode-docs.readthedocs.io/en/stable/extensions/example-word-count/).
 
 ## Notes
 
