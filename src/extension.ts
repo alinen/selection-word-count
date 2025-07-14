@@ -38,10 +38,13 @@ class WordCounter {
 		let document = editor.document;
 
 		// Only update status if an MarkDown file 
-		if (document.languageId !== "markdown") {
-			this._statusBarItem.hide();
-			return;
-		}
+		if (document.languageId !== "markdown" && 
+		    document.languageId !== "latex" && 
+		    document.languageId !== "tex" &&
+		    document.languageId !== "plaintext") {
+            		this._statusBarItem.hide();
+            		return;
+        	}
 
 		this._statusBarItem.show();
 
