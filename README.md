@@ -2,6 +2,15 @@
 
 This simple VSCode extension calculates and displays the word count of a Markdown document and, when there is a selection, the word count of a selection. It displays both in the status bar.
 
+This is a fork of [this repository](https://github.com/cjwit/selection-word-count) that adds support for Latex and plain text files.
+
+To install, copy it to a new folder under your local extensions folder:
+
+```
+    Windows: %USERPROFILE%\.vscode\extensions
+    Mac/Linux: $HOME/.vscode/extensions
+```
+
 ## Requirements
 
 This is an adaptation of the [word count extension example](https://vscode-docs.readthedocs.io/en/stable/extensions/example-word-count/).
